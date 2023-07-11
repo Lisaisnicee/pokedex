@@ -43,7 +43,7 @@
   box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.45);
   border-radius: 20px;
   padding: 2rem;
-  background-color: #f5efe3;
+  background-color: #e3f5e4;
 }
 
 .carddetails {
@@ -68,7 +68,7 @@
 
 .card p {
   text-transform: uppercase;
-  color: #fff;
+  color: rgb(255, 255, 255);
   text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -268,4 +268,12 @@ ul li {
   width: 100%;
   max-width: 400px;
   box-sizing: border-box;
+}
+body {
+  
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 16px;
+  
 }
