@@ -8,31 +8,7 @@ const Main = () => {
   const { id } = useParams();
   const pokemon = Data.find((pokemon) => pokemon.id === id);
 
-  return (
-    <>
-    
-  
-    
-  
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    </>
-  );
+  return <></>;
 };
 
 export default Main;

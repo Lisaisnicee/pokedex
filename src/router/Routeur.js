@@ -11,11 +11,10 @@ const Routeur = () => {
     <BrowserRouter>
       <Navigation>
         <Routes>
-     
           <Route path="/" element={<Main />} />
-          <Route path ="/pokemonList" element ={<PokemonList/>} />
+          <Route path="/pokemonList" element={<PokemonList />} />
           <Route path="/pokemon/:id" element={<PokemonDetails />} />
-          <Route path ="/searchMeteo" element ={<SearchMeteo/>} />
+          <Route path="/searchMeteo" element={<SearchMeteo />} />
           <Route path="*" element={<NoMatch />} />
         </Routes>
       </Navigation>

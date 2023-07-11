@@ -5,32 +5,11 @@ import SearchBar from '../component/searchBar';
 import { useParams } from 'react-router-dom';
 
 const Main = () => {
- 
- 
-
   return (
     <>
-    
-    
-    <div>
-    <SearchBar />
-    
-    
-    
-    
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+      <div>
+        <SearchBar />
+      </div>
     </>
   );
 };

@@ -270,10 +270,8 @@ ul li {
   box-sizing: border-box;
 }
 body {
-  
   align-items: center;
   justify-content: center;
   height: 100vh;
   font-size: 16px;
-  
 }

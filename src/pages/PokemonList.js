@@ -6,8 +6,7 @@ import '../styles/css/list.css';
 import { useParams } from 'react-router-dom';
 
 const Main = () => {
-  
-    const { id } = useParams();
+  const { id } = useParams();
   const pokemon = Data.find((pokemon) => pokemon.id === id);
 
   return (

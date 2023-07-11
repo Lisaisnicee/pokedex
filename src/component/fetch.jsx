@@ -6,7 +6,9 @@ const Fetch = ({ ville }) => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ville},uk&APPID=${API_KEY}`)
+    fetch(
+      `https://api.openweathermap.org/data/2.5/weather?q=${ville},uk&APPID=${API_KEY}`
+    )
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
@@ -18,17 +20,13 @@ const Fetch = ({ ville }) => {
       });
   }, [ville]);
 
- 
-  console.log("hello");
+  console.log('hello');
 
   return (
     <div>
-     
       {data && (
         <ul>
           <li>City: {data.name}</li>
-        
-        
         </ul>
       )}
     </div>
@@ -36,5 +34,3 @@ const Fetch = ({ ville }) => {
 };
 
 export default Fetch;
-
-
